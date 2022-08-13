@@ -1,0 +1,11 @@
+footer {
+  align-items: flex-end;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul li {
+  list-style: none;
+  margin: 10px;
+}
