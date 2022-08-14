@@ -1,9 +1,9 @@
 header {
-  height: 10vh;
+  height: 7vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid;
+  /* border-bottom: 1px solid; */
 }
 header nav {
   width: 100%;

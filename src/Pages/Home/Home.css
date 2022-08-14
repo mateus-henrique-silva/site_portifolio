@@ -1,0 +1,21 @@
+.img-back {
+  background: url("../../Assets/Image/Background/img-background1.jpg") fixed
+    no-repeat center;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-height: 1368) {
+  .img-back {
+    background: url("../../Assets/Image/Background/backgroundHome.jpg") fixed
+      no-repeat center;
+  }
+}
+
+.img-back h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}

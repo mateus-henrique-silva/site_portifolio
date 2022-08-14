@@ -1,0 +1,13 @@
+img {
+  position: relative;
+  animation: mymove 0.8s infinite;
+}
+
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 10px;
+  }
+}

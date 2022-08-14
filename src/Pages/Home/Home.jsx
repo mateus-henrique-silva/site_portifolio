@@ -1,8 +1,20 @@
 import React from "react";
-import Body from "../../Components/Body/Body";
+import ArrowDown from "../../Assets/Icons/AnimationIcons/arrowDown.svg";
+import ArrowAnimation from "../../Components/Animation/ArrowDown/Animation";
+import "./Home.css";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <main>
+        <div className="img-back">
+          <h1>Home</h1>
+
+          <ArrowAnimation imgDown={ArrowDown} />
+        </div>
+      </main>
+    </>
+  );
 };
 
 export default Home;
