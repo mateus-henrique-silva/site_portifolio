@@ -3,7 +3,7 @@ import "./Animation.css";
 
 const Animation = (props) => {
   return (
-    <div>
+    <div className="animationAroww">
       <img src={props.imgDown} alt="imgDown" />
     </div>
   );

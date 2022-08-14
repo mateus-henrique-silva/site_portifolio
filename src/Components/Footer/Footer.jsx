@@ -14,6 +14,7 @@ const Footer = () => {
             <li>GitHub</li>
             <li>Linkedin</li>
             <li>Instagram</li>
+            <li>Instagram</li>
           </ul>
         </nav>
         <form>

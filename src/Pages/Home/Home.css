@@ -19,3 +19,6 @@
   font-weight: bold;
   font-size: 50px;
 }
+.img-back h1::before {
+  animation: homeAnimation 0.8s;
+}

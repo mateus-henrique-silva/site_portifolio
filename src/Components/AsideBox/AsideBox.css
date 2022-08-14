@@ -1,0 +1,80 @@
+aside {
+  left: 0;
+  height: 100vh;
+  max-width: 21vw;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  background-color: #161616;
+  overflow: hidden;
+  animation: asideAnimation 0.8s;
+  perspective: initial;
+}
+@media (max-width: 999px) {
+  aside {
+    left: 0;
+    height: 100vh;
+    max-width: 100vw;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    background-color: #161616;
+    overflow: hidden;
+    animation: asideAnimationMobile 0.9s;
+    perspective: initial;
+  }
+
+  aside img {
+    margin-top: 20px;
+  }
+  .circleImage img {
+    border: 6px solid #07b995 !important;
+
+    /* Agora a mágica */
+  }
+
+  .about {
+    display: none;
+  }
+  @keyframes asideAnimationMobile {
+    0% {
+      width: 0;
+    }
+
+    100% {
+      width: 100vw;
+    }
+  }
+}
+@keyframes asideAnimation {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 21vw;
+  }
+}
+.circleImage {
+  justify-content: center;
+  display: grid;
+  text-align: center;
+  height: 40%;
+  width: 100%;
+}
+.circleImage img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #07b995;
+  color: #fff;
+
+  /* Agora a mágica */
+  border-radius: 50%;
+}
+.rotationText {
+  transform: rotate(270deg);
+  bottom: 0;
+  display: grid;
+  /* align-items: flex-end; */
+  justify-content: center;
+}
